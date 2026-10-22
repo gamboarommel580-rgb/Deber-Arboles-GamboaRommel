@@ -1,0 +1,18 @@
+=== PruebasBiblioteca ===
+[OK]    Solo raíz: altura 0 y 1 hoja
+[OK]    Inicial: altura 2, 4 hojas y 13 libros
+[OK]    Nivel BIB=0, sw=1, SW-E2=2, XYZ=-1
+[OK]    ESTANTE como hijo de BIBLIOTECA: false
+[OK]    Preorden SW-E1
+[OK]    Inorden SW-E1
+[OK]    Posorden SW-E1
+[OK]    Insertar código repetido (60): false
+[OK]    caminoBusqueda(42) = [60, 35, 45, 40]
+[OK]    contarEnRango(40, 75) = 5
+[OK]    Preorden final 75 35 45 40 42 80 90
+[OK]    Buscar/modificar/eliminar 999: null / false / false
+[OK]    Libro con datos inválidos: IllegalArgumentException
+[OK]    esABBValido con nieto mal ubicado: false
+[OK]    esABBValido del catálogo correcto: true
+[OK]    Extra desdePreorden: mismo inorden y posorden
+16/16 pruebas OK
